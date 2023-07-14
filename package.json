@@ -1,6 +1,7 @@
 {
   "name": "hw5",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "parcel src/*.html",
@@ -10,9 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "i": "^0.3.7",
+    "@pnotify/core": "^5.2.0",
     "parcel-bundler": "^1.12.5",
     "pnotify": "^5.2.0"
-  },
-  "description": ""
+  }
 }

@@ -2,18 +2,20 @@ import {  error } from '@pnotify/core';
 import '@pnotify/core/dist/BrightTheme.css';
 
 
-const keyEl = document.getElementById("#key")
+const keyEl = document.querySelector('.key')
+console.log(keyEl);
 const keys = [
     "q",
-    "w",
-    "e",
-    "r",
-    "t",
-    "y",
+    "l",
+    "c",
+    "m",
+    "i",
+    "o",
 ]
 
 let currentKeyIndex = Math.floor(Math.random() * keys.length)
-keyEl.textContent = keys[currentKeyIndex]
+let keyText = keys[currentKeyIndex] 
+keyEl.textContent = keyText
 
 document.addEventListener("keydown", onKeyDown)
 
